@@ -1,2 +1,10 @@
 # Ignore files containing sensitive information
-app.js
+# Ignore .env files (to protect sensitive information)
+.env
+
+# Node modules
+node_modules/
+
+# Other common files to ignore
+.DS_Store
+
