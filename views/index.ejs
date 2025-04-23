@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title></head>
+<body>
+  <h1>Login with Google</h1>
+  <% if (user) { %>
+    <p>Halo, <%= user.displayName %>!</p>
+    <a href="/profile">Lihat Profil</a> | <a href="/logout">Logout</a>
+  <% } else { %>
+    <a href="/auth/google">Login dengan Google</a>
+  <% } %>
+</body>
+</html>
